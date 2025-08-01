@@ -1,0 +1,121 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Michael Nancarrow
+title: Senior Cyber Security Engineer
+email: nancarrowm@icloud.com
+website: https://michaelnancarrow.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  nancarrowm
+stackoverflow_username: "8505596"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: michael-nancarrow
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Experienced IT Security Solutions Engineer with a proven track record in architecting robust, scalable, and secure business solutions. With a background encompassing roles such as IT Manager, Network and Systems Administrator, I possess a keen aptitude for translating complex business requirements into practical, secure, and cost-efficient systems. My expertise lies in seamlessly integrating innovative technology components into existing infrastructure while prioritizing security and reliability. Committed to driving forward-thinking solutions that empower organizations to thrive in dynamic digital landscapes.
+
+
+  I am most skilled in: EDR/XDR/SIEM and SOAR technollgies and going down rabbit holes trying to understand the chaos.
+
+content:
+  - title: Personal Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: teamblue/home-soc
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/nancarrowm
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Virtual Configured, Isolated Network Lab, One-Touch-Deploy. Focus Driven. Secured. 
+        description: | # this will include new lines to allow paragraphs
+Developed a product based on Xen and QubesOS containers, providing pre-configured tools within securely scoped environments to support both offensive (Red Team) and defensive (Blue Team) security professionals in training and skill development. Public release is planned following completion of thorough testing and validation of all builds.  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Eagers Automotive Limited
+        link: eagersautomotive.com.au
+        # link_text: boringcompany.com
+        sub_title: Senior Cyber Security Engineer
+        caption: November 2013 - Present
+        quote: >
+          Refining, adapting, empowering and modernizing the Automotive space.
+        description: | # this will include new lines to allow paragraphs
+Starting in entry-level support, I have gained comprehensive experience across all areas of IT, including Systems and Network Administration, Management, and Compliance. I now lead initiatives in compliance, risk, and governance—securing and optimizing networks, applications, user identities, and infrastructure. My work supports cloud adoption, AI integration, and mobile workforce enablement for a leading company in the automotive retail sector.
+      - layout: left
+        title: Nancarrow Consulting
+        link: michaelnancarrow.com
+        # link_text: boringcompany.com
+        sub_title: Managed Service Provider
+        caption: June 2020 - December 2024
+        quote: >
+          Driving Risk Reduction, Compliance and Governance to Small and Medium Business.
+        description: | # this will include new lines to allow paragraphs
+            Worked as a contracted MSP for small and medium sized business looking for affordable, realistic IT support. Managed EDR/XDR Solutions (CrowdStrike, SentinelOne, Sophos), Remote Access (Fortinet SSL VPN, ZScaler Private Access, NetSkope), backups, infrastructure and identity. Employed 25 contracted staff to run the IT support for 57 SMB customers in Australia and New Zealand.
+
+  - title: Skill Set # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Operating Systems
+        caption: Highly Proficient
+        sub_title: MacOS, Linux, Unix and Windows
+        quote: >
+          OS Dependent Skillset, fluent in problem detection, containment and remediation.
+        description: | # this will include new lines to allow paragraphs
+Highly proficient in end-user support, networking, automation, and security, I specialize in delivering scalable, secure solutions tailored to business needs. My approach is purpose-driven, emphasizing robust governance, risk, and compliance (GRC) to empower organizations with resilient and future-ready IT foundations. I'm passionate about helping businesses realize the transformative potential of GRC to drive strategic growth and peace of mind.
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
